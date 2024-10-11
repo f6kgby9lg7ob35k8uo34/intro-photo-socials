@@ -18,7 +18,7 @@ const Index = () => {
             <Icon icon="mdi:linkedin" width="32" height="32" />
           </a>
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:text-sky-700">
-            <Icon icon="devicon:twitter" width="29`" height="29" />
+            <Icon icon="devicon:twitter" width="10`" height="10" />
           </a>
           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:text-pink-800">
             <Icon icon="mdi:instagram" width="32" height="32" />
