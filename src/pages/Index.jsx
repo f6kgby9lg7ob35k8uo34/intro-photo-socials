@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react';
 const Index = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-black text-white">
-      <div className="text-center">
+      <div className="text-center bg-white text-black p-8 rounded-lg shadow-lg">
         <img
           src="https://placekitten.com/200/200" // Replace with your actual photo URL
           alt="Profile"
@@ -12,21 +12,22 @@ const Index = () => {
         />
         <h1 className="text-2xl font-bold mb-2">John Doe</h1>
         <p className="text-xl mb-6">Web Developer & Designer</p>
-        <div className="flex justify-center space-x-4">
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-400">
-            <Icon icon="mdi:linkedin" width="24" height="24" />
+        <div className="w-full h-px bg-gray-300 my-4"></div>
+        <div className="flex justify-center space-x-6">
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">
+            <Icon icon="mdi:linkedin" width="32" height="32" />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-400">
-            <Icon icon="mdi:twitter" width="24" height="24" />
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-sky-500 hover:text-sky-700">
+            <Icon icon="mdi:twitter" width="32" height="32" />
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-pink-400">
-            <Icon icon="mdi:instagram" width="24" height="24" />
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:text-pink-800">
+            <Icon icon="mdi:instagram" width="32" height="32" />
           </a>
-          <a href="mailto:johndoe@example.com" className="text-white hover:text-green-400">
-            <Icon icon="mdi:email" width="24" height="24" />
+          <a href="mailto:johndoe@example.com" className="text-red-500 hover:text-red-700">
+            <Icon icon="mdi:email" width="32" height="32" />
           </a>
-          <a href="https://johndoe.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-400">
-            <Icon icon="mdi:web" width="24" height="24" />
+          <a href="https://johndoe.com" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:text-green-800">
+            <Icon icon="mdi:web" width="32" height="32" />
           </a>
         </div>
       </div>
